@@ -22,9 +22,9 @@ import springsecurityjwt.service.CustomUserDetailsService;
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-  private CustomUserDetailsService userDetailsService;
+  private final CustomUserDetailsService userDetailsService;
 
-  private JwtFilter jwtFilter;
+  private final JwtFilter jwtFilter;
 
   public SecurityConfig(CustomUserDetailsService userDetailsService, JwtFilter jwtFilter) {
     this.userDetailsService = userDetailsService;
