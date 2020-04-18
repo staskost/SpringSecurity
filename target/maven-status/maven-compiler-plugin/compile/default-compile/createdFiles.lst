@@ -1,0 +1,13 @@
+springsecurityjwt\controllers\HelloController.class
+springsecurityjwt\SpringSecurityJwtApplication.class
+springsecurityjwt\service\TokenUtil.class
+springsecurityjwt\service\CustomUserDetailsService.class
+springsecurityjwt\model\LoginResponse.class
+springsecurityjwt\model\Role.class
+springsecurityjwt\repositories\UserRepository.class
+springsecurityjwt\model\CustomUserDetails.class
+springsecurityjwt\model\Login.class
+springsecurityjwt\config\SecurityConfig.class
+springsecurityjwt\model\User.class
+springsecurityjwt\controllers\AuthenticationController.class
+springsecurityjwt\filter\JwtFilter.class
